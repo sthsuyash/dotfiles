@@ -21,7 +21,7 @@ fi
 # code --list-extensions --show-versions >> ../../vscode/extensions.txt
 
 # copy other dot files 
-sudo cp -r $HOME/{.zshrc,.bashrc,.gitconfig,.oh-my-zsh,.profile,.themes} .
+sudo cp -r $HOME/{.zshrc,.vimrc,.bashrc,.gitconfig,.profile} .
 
 
 
@@ -36,7 +36,7 @@ fi
 
 
 # push to Github
- git add -u origin main;
+ git add .;
  git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
  git push origin main
 

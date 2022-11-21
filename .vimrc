@@ -1,7 +1,6 @@
-" Map escape to jj
-"imap jj <Esc>
-
-" Syntax highlighting
+"Map escape to jj
+imap jj <Esc>
+"Syntax highlighting
 syntax on
 
 " Set FZF Default to Ripgrep (must install ripgrep)
@@ -29,10 +28,10 @@ set relativenumber
 set cursorline
 
 " Column set to column 100
-set colorcolumn=100
+"set colorcolumn=100
 
 " Column color set to grey
-highlight ColorColumn ctermbg=1
+"highlight ColorColumn ctermbg=0
 
 " Plugins
 call plug#begin('~/.vim/plugged')

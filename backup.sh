@@ -21,7 +21,7 @@ fi
 # code --list-extensions --show-versions >> ../../vscode/extensions.txt
 
 # copy other dot files 
-sudo cp -r $HOME/{.zshrc,.vimrc,.bashrc,.gitconfig,.profile} .
+sudo cp -r $HOME/{.zshrc,.vim,.vimrc,.bashrc,.gitconfig,.profile} .
 
 
 
